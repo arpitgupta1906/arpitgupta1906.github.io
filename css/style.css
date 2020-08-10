@@ -135,11 +135,17 @@ body {
 	outline: 0 !important;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 hr {
-	-webkit-box-sizing: content-box;
+	/* -webkit-box-sizing: content-box;
 	box-sizing: content-box;
-	height: 0;
-	overflow: visible;
+	/* height: 0; */
+	/* height: 20px;
+	overflow: visible; */ */
 }
 
 h1,
